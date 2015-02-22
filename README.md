@@ -18,7 +18,7 @@ To build, open MSVS solution file ODBCDNS.sln. From there, a build can be create
 
 Setup
 -----
-At a minimum, the database must be created and initialized with a RECORD table. This can be done by executing SQL/INIT.sql. It may also be useful to configure logging for the application using log4cxx. Please see http://logging.apache.org/log4cxx/usage.html for some example configurations. If this is not specified in the command line (see below), the default logger is used, which outputs to stdout.
+At a minimum, the database must be created and initialized with a `RECORD` table. This can be done by executing `SQL/INIT.sql`. It may also be useful to configure logging for the application using log4cxx. Please see http://logging.apache.org/log4cxx/usage.html for some example configurations. If this is not specified in the command line (see below), the default logger is used, which outputs to stdout.
 
 Running
 -------
@@ -35,7 +35,7 @@ options:
         logproperties=FILE      - path to log4cxx properties file
 ```
 
-Example: ODBCDNS.exe "DRIVER={SQL Server Native Client 11.0};SERVER=(local);DATABASE=DNS;Trusted_Connection=yes;" -recursiveserver=8.8.8.8 -logproperties=log4cxx.properties
+Example: `ODBCDNS.exe "DRIVER={SQL Server Native Client 11.0};SERVER=(local);DATABASE=DNS;Trusted_Connection=yes;" -recursiveserver=8.8.8.8 -logproperties=log4cxx.properties`
 
 Limitations
 -----------
