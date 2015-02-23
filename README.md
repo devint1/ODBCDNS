@@ -7,7 +7,7 @@ ODBCDNS uses an RDBMS as its backend to store all of its information. This allow
 
 Requirements
 ------------
-- 64-bit Windows
+- Microsoft Windows 64-bit
 - ODBC 3 or newer
 - Microsoft Visual Studio 2013
 - Microsoft SQL Server 2008 or newer
